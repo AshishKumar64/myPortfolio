@@ -9,7 +9,25 @@ const Contact = () => {
 
   const [loader, setLoader] = useState(false);
 
-  // const validate = 
+  function InvalidMsg(textbox: any) {
+
+    if(textbox.validity.patternMismatch){
+       textbox.setCustomValidity('Please enter a valid Email Id');
+   }    
+   else {
+       textbox.setCustomValidity('');
+   }
+   return true;
+}
+function check(input : any) {  
+  if(input.validity.typeMismatch){  
+      input.setCustomValidity("Dude '" + input.value + "' is not a valid email. Enter something nice!!");  
+  }  
+  else {  
+      input.setCustomValidity("");  
+  }                 
+} 
+
   const handleSubmit = (e: any) => {
     e.preventDefault();
     setLoader(true);
@@ -57,7 +75,6 @@ const Contact = () => {
             Hapur, Uttar Pradesh
           </div>
         </div>
-        {/* <div className="form-container"> */}
         <div className="send-message">
           <i className="fa fa-paper-plane"></i>
               &nbsp; Send a message &nbsp;
@@ -67,6 +84,7 @@ const Contact = () => {
           <label>Name</label>
           <input
             required
+            type="text"
             placeholder="e.g. Ashish Kumar"
             value={name}
             onChange={(e) => setName(e.target.value)}
@@ -77,6 +95,7 @@ const Contact = () => {
             required
             placeholder="e.g. xyz@gmail.com"
             value={email}
+            pattern="[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,4}$"
             type="email"
             onChange={(e) => setEmail(e.target.value)}
           />
