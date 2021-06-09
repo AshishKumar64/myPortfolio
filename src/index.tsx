@@ -3,15 +3,19 @@ import ReactDOM from 'react-dom';
 import './index.scss';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
+import { BrowserRouter } from 'react-router-dom';
 
 ReactDOM.render(
   
   <React.StrictMode>
-    <head>
-      <title>Ashish Kumar</title>
-    </head>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"></link>
-    <App />
+    <BrowserRouter>
+      <head>
+        <title>Ashish Kumar</title>
+      </head>
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"></link>
+      <App />
+    </BrowserRouter>
+    
   </React.StrictMode>,
   document.getElementById('root')
 );
