@@ -4,7 +4,7 @@ import "./Sidebar.scss";
 const Sidebar = () => {
   return (
     <div className="sidebar">
-      <img className="image" src={require("../assets/night.jpg")} />
+      <img className="image" src={require("../assets/cardpicbg.jpg")} />
 
       <div className="data">
         <p className="name">Ashish Kumar</p>

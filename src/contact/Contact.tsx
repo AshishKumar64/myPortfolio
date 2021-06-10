@@ -8,7 +8,7 @@ const Contact = () => {
   const [message, setMessage] = useState("");
 
   const [loader, setLoader] = useState(false);
-
+  const emailregex = /^(([^<>()\[\]\\.,;:\s@"A-Z]+(\.[^<>()\[\]\\.,;:\s@"A-Z]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-z\-0-9]+\.)+[a-z]{2,7}))$/;
   const handleSubmit = (e: any) => {
     e.preventDefault();
     setLoader(true);
@@ -76,8 +76,9 @@ const Contact = () => {
             required
             placeholder="e.g. xyz@gmail.com"
             value={email}
-            pattern="[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,4}$"
-            type="email"
+            // pattern={`${emailregex}`}
+            pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$"
+            type="text"
             onChange={(e) => setEmail(e.target.value)}
           />
 
