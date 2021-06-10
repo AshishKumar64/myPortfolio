@@ -18,21 +18,17 @@
     }
     .me {
       text-shadow: -3px -3px 5px #1c1212, 3px 3px 3px #8b5d5d;
-      // color: rgb(251, 189, 18);
       color: rgb(247, 165, 89);
-      // color: white;
     }
   }
 
   .contact-data {
     margin-top: 20px;
     display: flex;
-    // flex-wrap: wrap;
     flex-direction: column;
     justify-content: space-between;
     height: 80%;
     align-items: center;
-    // margin: 30px 0px 0px 10px ;
     overflow-y: scroll;
     @include ascrollbar(rgb(247, 165, 89), rgb(247, 165, 89));
     .contact-details {
@@ -41,7 +37,6 @@
       flex-direction: column;
       justify-content: space-between;
       align-items: center;
-      // flex-wrap: wrap;
       .contact-detail {
         width: 50%;
         height: 70px;
@@ -92,11 +87,6 @@
         width: 90%;
       }
     }
-
-    .form > h1 {
-      margin-bottom: 30px;
-    }
-
     .form > input,
     textarea {
       padding: 10px;
@@ -107,11 +97,7 @@
       outline: none;
       font-size: 16px;
       font-weight: bolder;
-      // width: 95%;
-      // min-width: 80%;
-      // max-width: 80%;
       color: rgb(247, 165, 89);
-      // color: white;
       border: 1px solid rgb(50, 25, 25);
       box-shadow: inset -2px -2px 5px #1c1212, inset 2px 2px 5px #8b5d5d;
     }
@@ -127,11 +113,6 @@
     ::-ms-input-placeholder {
       color: rgb(141, 77, 77);
     }
-    .form > input:focus,
-    textarea:focus {
-      // border: 1px solid  rgb(247, 165, 89);
-    }
-
     .form > textarea {
       height: 100px;
     }

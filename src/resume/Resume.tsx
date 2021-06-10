@@ -31,7 +31,6 @@ const Resume = () => {
           <div className="border"></div>
           <div className="education-content">
             <div className="sub-heading second">
-              {/* 🔴 */}
               High school (91.1%)</div>
             <div>Saraswati Bal Mandir Senior Secondary School, Hapur</div>
             <div>2013-2014</div>
@@ -63,7 +62,6 @@ const Resume = () => {
           <div className="bar">
             <div className="color three">
             </div>
-            {/* <div className="transparent"></div> */}
           </div>
           <div className="sub-heading tech"><div>REACT JS</div> </div>
           <div className="bar">
@@ -81,7 +79,6 @@ const Resume = () => {
            Frontend web developer - Intern
           </div>
           <div>
-           {/* &nbsp;  */}
            I have an experience of more than one year in the field of frontend development.
            I have worked on many industrial level live projects during my internship which are based on React js.
           </div>

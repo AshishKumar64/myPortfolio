@@ -9,25 +9,6 @@ const Contact = () => {
 
   const [loader, setLoader] = useState(false);
 
-  function InvalidMsg(textbox: any) {
-
-    if(textbox.validity.patternMismatch){
-       textbox.setCustomValidity('Please enter a valid Email Id');
-   }    
-   else {
-       textbox.setCustomValidity('');
-   }
-   return true;
-}
-function check(input : any) {  
-  if(input.validity.typeMismatch){  
-      input.setCustomValidity("Dude '" + input.value + "' is not a valid email. Enter something nice!!");  
-  }  
-  else {  
-      input.setCustomValidity("");  
-  }                 
-} 
-
   const handleSubmit = (e: any) => {
     e.preventDefault();
     setLoader(true);

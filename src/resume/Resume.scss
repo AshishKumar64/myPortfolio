@@ -7,10 +7,8 @@
   text-align: justify;
   height: 100%;
   width: 100%;
-  // background: rgb(211, 240, 250);
   color: rgb(199, 159, 121);
     .resume-heading {
-        // color: rgb(247, 165, 89);;
         color: rgb(199, 159, 121);
         font-size: 4em;
         font-weight: bold;
@@ -24,9 +22,7 @@
           font-size: 3em;
         }
         .resume-sub-heading{
-          // color: chocolate;
           color: rgb(2, 129, 172);
-          
         }
       }
       .resume-content{
@@ -63,7 +59,6 @@
             }
           }
           &.third {
-            // color: rgb(247, 165, 89);
             color: lightsteelblue;
             font-weight: normal;
             margin: 10px 0px;
@@ -77,21 +72,16 @@
           }
         }
         .education {
-          border: 3px solid rgb(199, 159, 121);;
-          // chocolate;
+          border: 3px solid rgb(199, 159, 121);
           border-radius: 10px;
           padding: 20px;
           width: 75%;
           display: flex;
           justify-content: center;
           flex-direction: column;
-          // align-items: center;
-          
-          // margin-top: 50px;
           .border{
             width: 100%;
             border-bottom: 1px solid rgb(199, 159, 121);
-            
           }
           .education-content{
             padding: 20px 0px;
@@ -102,13 +92,6 @@
           display: flex;
           align-items: center;
           flex-direction: column;
-          // .tech{
-          //   width: 80%;
-          //   color: lightblue;
-          //   font-weight: bold;
-          //   text-shadow:-3px -3px 5px #1c1212,
-          //   3px 3px 5px #724a4a ;
-          // }
           .bar{
             width: 80%;
             height: 8px;
@@ -118,9 +101,7 @@
             background-color: #553636;
             box-shadow: inset -2px -2px 5px #1c1212, inset 2px 2px 5px #8b5d5d;
             .color{
-              // width: 80%;
               height: 100%;
-              // background: rgb(255, 255, 255);
               box-shadow: inset -1px -1px 1px #1c1212, inset 1px 1px 1px #8b5d5d;
               border-radius: 20px;
               &.zero{

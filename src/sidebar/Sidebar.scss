@@ -107,7 +107,6 @@
           font-size: 18px;
           margin: 7px;
           padding: 7px;
-          // box-shadow: ;
         }
       }
       #github:active{
@@ -161,9 +160,7 @@
       border-radius: 5px;
     }
     &:hover {
-      // box-shadow: inset -1px -1px 1px #724a4a, inset 1px 1px 1px #1c1212;
       color: #e5383b;
-      // border: 1px solid transparent;
     }
     &:active {
       box-shadow: inset -1px -1px 1px #724a4a, inset 1px 1px 1px #1c1212;
