@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "e2f7e6520a5bd47f9b78e8f914c825b6",
+    "revision": "381ffd92142025a6c9738b8dd6136369",
     "url": "/myPortfolio/index.html"
   },
   {
-    "revision": "b62d7f26b45614a1bc45",
+    "revision": "aeae0c784ed7ba5d6d34",
     "url": "/myPortfolio/static/css/main.c7f8799a.chunk.css"
   },
   {
@@ -16,16 +16,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/myPortfolio/static/js/2.6955d607.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "b62d7f26b45614a1bc45",
-    "url": "/myPortfolio/static/js/main.9e5d4fc8.chunk.js"
+    "revision": "aeae0c784ed7ba5d6d34",
+    "url": "/myPortfolio/static/js/main.6e7384c0.chunk.js"
   },
   {
     "revision": "0f713a185793586653f3",
     "url": "/myPortfolio/static/js/runtime-main.d351083c.js"
   },
   {
-    "revision": "75c9b4e20d0655ec6511d453703914bd",
-    "url": "/myPortfolio/static/media/night.75c9b4e2.jpg"
+    "revision": "51c8c59d5422d13bcb27ca5462c53ccc",
+    "url": "/myPortfolio/static/media/cardpicbg.51c8c59d.jpg"
   },
   {
     "revision": "f80040d79e782f339bea8d967260b01b",
