@@ -10,7 +10,7 @@ const About = () => {
       </span>
       <div className="about-content">
         <div className="about-sub-content">
-          I'm a third year undergraduate student currently pursuing a bachelor's degree in
+          I'm a fourth year undergraduate student currently pursuing a bachelor's degree in
           Computer Science and Engineering from ABES Engineering College,
           Ghaziabad. I'm a proactive learner, enthusiastic about Web Design and
           Front-end Development. Currently, I am working with React JS and plan on

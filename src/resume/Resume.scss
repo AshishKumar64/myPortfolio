@@ -105,11 +105,11 @@
               box-shadow: inset -1px -1px 1px #1c1212, inset 1px 1px 1px #8b5d5d;
               border-radius: 20px;
               &.zero{
-                width: 70%;
+                width: 65%;
                 background-color: rgb(255, 0, 64);
               }
               &.one{
-                width: 70%;
+                width: 45%;
                 background-color: rgb(99, 221, 99);
               }
               &.two{
@@ -117,12 +117,16 @@
                 background-color: rgb(238, 173, 68);
               }
               &.three{
-                width: 70%;
+                width: 75%;
                 background-color: rgb(0, 255, 213);
               }
               &.four{
-                width: 75%;
+                width: 70%;
                 background-color: rgb(189, 192, 0);
+              }
+              &.five{
+                width: 70%;
+                background-color: rgb(170, 0, 192);
               }
             }
           }
@@ -132,7 +136,7 @@
           height: 400px;
           border: 3px solid rgb(199, 159, 121);
           padding: 20px;
-          margin-bottom: 10px;
+          margin-bottom: 20px;
           border-radius: 10px;
         }
       }
