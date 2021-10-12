@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "33632c51fb09aef661008e753cff0103",
+    "revision": "3086da717653ffa295c8d2d3184566f4",
     "url": "/myPortfolio/index.html"
   },
   {
-    "revision": "33a96245820a9a5282ac",
-    "url": "/myPortfolio/static/css/main.2d0a92a8.chunk.css"
+    "revision": "25f6573fbd3b420bd6c2",
+    "url": "/myPortfolio/static/css/main.d3fabe9e.chunk.css"
   },
   {
     "revision": "9b1d2c5a4130c09c43b1",
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/myPortfolio/static/js/2.6955d607.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "33a96245820a9a5282ac",
-    "url": "/myPortfolio/static/js/main.6e7384c0.chunk.js"
+    "revision": "25f6573fbd3b420bd6c2",
+    "url": "/myPortfolio/static/js/main.c0fd0573.chunk.js"
   },
   {
     "revision": "0f713a185793586653f3",
@@ -28,8 +28,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/myPortfolio/static/media/cardpicbg.51c8c59d.jpg"
   },
   {
-    "revision": "f80040d79e782f339bea8d967260b01b",
-    "url": "/myPortfolio/static/media/resume.f80040d7.pdf"
+    "revision": "58dc47ae2115ad64b8ee6e8597348c5d",
+    "url": "/myPortfolio/static/media/resume.58dc47ae.pdf"
   },
   {
     "revision": "7e846d427983bf0646219494fa384641",
